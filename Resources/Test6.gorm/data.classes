@@ -2,8 +2,8 @@
     "## Comment" = "Do NOT change this file, Gorm maintains it";
     AppController = {
 	Actions = (
-	    "showPrefPanel:",
-	    "buttonClicked:"
+	    "buttonClicked:",
+	    "showPrefPanel:"
 	);
 	Outlets = (
 	);
@@ -11,6 +11,7 @@
     };
     FirstResponder = {
 	Actions = (
+	    "IBAction buttonClicked:",
 	    "buttonClicked:",
 	    "orderFrontFontPanel:",
 	    "showPrefPanel:"
